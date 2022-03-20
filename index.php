@@ -3,14 +3,13 @@
 <div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-				<h1 class="text-white font-weight-bold mb-4">Showcase your app with Small Apps</h1>
-				<p class="text-white mb-5">Besides its beautiful design. Laapp is an incredibly rich core framework for you to
-					showcase your App.</p>
+				<h1 class="text-white font-weight-bold mb-4"><?php echo get_the_title(11); ?></h1>
+				<p class="text-white mb-5"><?php echo get_the_excerpt(11); ?></p>
 				<a href="FAQ.html" class="btn btn-main-md">Download Now</a>
 			</div>
-			<?php $template_directory = get_template_directory_uri(); ?>
 			<div class="col-md-6 text-center order-1 order-md-2">
-				<img class="img-fluid" src="<?php echo $template_directory; ?>/assets/images/mobile.png"  alt="screenshot">
+			<?php echo get_the_post_thumbnail(11); ?>
+				<!-- <img class="img-fluid" src="assets/images/mobile.png"  alt="screenshot"> -->
 			</div>
 		</div>
 	</div>
