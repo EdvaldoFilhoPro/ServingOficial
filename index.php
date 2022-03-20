@@ -3,12 +3,12 @@
 <div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-				<h1 class="text-white font-weight-bold mb-4"><?php echo get_the_title(11); ?></h1>
-				<p class="text-white mb-5"><?php echo get_the_excerpt(11); ?></p>
+				<h1 class="text-white font-weight-bold mb-4"><?php echo get_the_title(14); ?></h1>
+				<p class="text-white mb-5"><?php echo get_the_excerpt(14); ?></p>
 				<a href="FAQ.html" class="btn btn-main-md">Download Now</a>
 			</div>
 			<div class="col-md-6 text-center order-1 order-md-2">
-			<?php echo get_the_post_thumbnail(11); ?>
+			<?php echo get_the_post_thumbnail(14); ?>
 				<!-- <img class="img-fluid" src="assets/images/mobile.png"  alt="screenshot"> -->
 			</div>
 		</div>
