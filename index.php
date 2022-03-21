@@ -20,22 +20,22 @@
 		<div class="rounded shadow p-5 bg-white">
 			<div class="row">
 				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
-					<i class="ti-paint-bucket text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">themes made easy</h3>
-					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
-						tempore ipsam dignissimos molestias.</p>
+					<i class="ti-shopping-cart-full text-primary h1"></i>
+						<!-- ID (13) -->
+					<h3 class="mt-4 text-capitalize h5 "><?php echo get_the_title(18); ?></h3>
+					<p class="regular text-muted"><?php echo get_the_excerpt(18); ?></p>
 				</div>
 				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
 					<i class="ti-shine text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">powerful design</h3>
-					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
-						tempore ipsam dignissimos molestias.</p>
+					<!-- ID (15) -->
+					<h3 class="mt-4 text-capitalize h5 "><?php echo get_the_title(20); ?></h3>
+					<p class="regular text-muted"><?php echo get_the_excerpt(20); ?></p>
 				</div>
 				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
 					<i class="ti-thought text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">creative content</h3>
-					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
-						tempore ipsam dignissimos molestias.</p>
+						<!-- ID (29) -->
+					<h3 class="mt-4 text-capitalize h5 "><?php echo get_the_title(23); ?></h3>
+					<p class="regular text-muted"><?php echo get_the_excerpt(23); ?></p>
 					</p>
 				</div>
 			</div>
